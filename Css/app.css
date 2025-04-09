@@ -1,0 +1,135 @@
+/* Fonts & Reset */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding-top: 70px;
+  background-color: #f8f8f4;
+  color: #333;
+}
+
+/* Olive Theme Palette */
+.bg-olive {
+  background-color: #556b2f !important;
+}
+.olive-dark {
+  background-color: #3e4d1e;
+}
+.olive-light {
+  background-color: #e4e8d9;
+}
+.btn-olive {
+  background-color: #6e8b3d;
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn-olive:hover {
+  background-color: #4f6724;
+  transform: scale(1.05);
+}
+.btn-outline-light:hover {
+  background-color: white;
+  color: #556b2f !important;
+}
+
+/* Navbar */
+.navbar {
+  transition: all 0.3s ease-in-out;
+}
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: white !important;
+}
+.nav-link {
+  color: white !important;
+  margin-left: 1rem;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  color: #d9e2c3 !important;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #556b2f;
+  min-height: 100vh;
+  padding: 120px 0 80px;
+  color: white;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.hero-section p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+.hero-section .btn {
+  font-size: 1rem;
+  padding: 12px 30px;
+  border-radius: 50px;
+}
+.hero-img {
+  height: 100%;
+  max-height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Section Styling */
+.section {
+  padding: 80px 0;
+}
+.section h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+img:hover {
+  transform: scale(1.02);
+}
+
+/* Form Styling */
+input, textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #6e8b3d;
+  box-shadow: 0 0 0 3px rgba(110, 139, 61, 0.2);
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  background-color: #556b2f;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+  .hero-section p {
+    font-size: 1rem;
+  }
+  .hero-img {
+    max-height: 350px;
+    margin-top: 20px;
+  }
+}
